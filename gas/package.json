@@ -1,0 +1,22 @@
+{
+  "name": "gas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Code.js",
+  "scripts": {
+    "login": "clasp login",
+    "logout": "clasp logout",
+    "prepare": "node ../scripts/prepare-gas-dist.mjs",
+    "check:output": "node ../scripts/assert-build-output.mjs dist Code.js Index.html appsscript.json",
+    "push": "npm run prepare && npm run check:output && clasp push",
+    "deploy": "clasp deploy"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@google/clasp": "^3.3.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "scriptId": "วาง_SCRIPT_ID_ที่คัดลอกมาไว้ตรงนี้",
+  "rootDir": "dist",
+  "scriptExtensions": [
+    ".js",
+    ".gs"
+  ],
+  "htmlExtensions": [
+    ".html"
+  ],
+  "jsonExtensions": [
+    ".json"
+  ],
+  "filePushOrder": [],
+  "skipSubdirectories": false
+}

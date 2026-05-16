@@ -1,0 +1,17 @@
+{
+  "name": "student-attendance-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build orchestration for the Student Attendance System Google Apps Script project.",
+  "scripts": {
+    "install:all": "npm --prefix frontend install && npm --prefix server install && npm --prefix gas install",
+    "build": "npm --prefix frontend run build && npm --prefix frontend run check:output && npm --prefix server run build:check && npm --prefix gas run prepare && npm --prefix gas run check:output",
+    "check:outputs": "npm --prefix frontend run check:output && npm --prefix server run check:output && npm --prefix gas run check:output",
+    "push": "npm run build && npm --prefix gas run push",
+    "login": "npm --prefix gas run login",
+    "deploy": "npm --prefix gas run deploy"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
