@@ -1,1 +1,77 @@
-@import "tailwindcss";
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+}
+
+.app-letter-wide {
+  letter-spacing: 0.08em;
+}
+
+.app-term-select {
+  min-width: 10rem;
+}
+
+.app-readable-card {
+  max-width: 36rem;
+  width: 100%;
+}
+
+.app-error-bg {
+  background-color: #fff5f7;
+}
+
+.app-table-students {
+  min-width: 56rem;
+}
+
+.app-table-users {
+  min-width: 66rem;
+}
+
+.app-scroll-tall {
+  max-height: 32rem;
+}
+
+.app-status-button {
+  min-width: 3.5rem;
+}
+
+.app-folder-cell {
+  max-width: 16rem;
+}
+
+.app-setup-form {
+  max-width: 36rem;
+}
+
+.setup-shell {
+  background:
+    radial-gradient(circle at top left, rgba(13, 202, 240, 0.18), transparent 34%),
+    #111827;
+  color: #f8f9fa;
+}
+
+.setup-card {
+  border-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 1.5rem 4rem rgba(8, 47, 73, 0.38);
+}
+
+.setup-hero {
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.75), transparent 34%),
+    linear-gradient(135deg, rgba(13, 202, 240, 0.96), rgba(32, 201, 151, 0.94));
+  color: #102a43;
+}
+
+.setup-badge-soft {
+  background-color: rgba(17, 24, 39, 0.1);
+}
+
+.setup-missing-box {
+  border-color: rgba(17, 24, 39, 0.12);
+  background-color: rgba(255, 255, 255, 0.35);
+}
